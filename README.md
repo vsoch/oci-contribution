@@ -102,7 +102,7 @@ An image manifest is what you see delivered by the [Docker registry]() to get me
 for a particular [container tag](https://docs.docker.com/engine/reference/commandline/manifest/).
 
 
-#### Distribution
+### The Distribution Specification
 
 The [distribution specification](https://github.com/opencontainers/distribution-spec/blob/master/spec.md)
 describes the API that might be used by a registry to distribute images. This means actions like pull, push, along with how images are named, and errors are presented. You can think of the distribution specification
@@ -138,7 +138,7 @@ Generally, since the goals are to move (push and pull) images, and provide endpo
 if you are designing a registry or a client and find that you are missing some key function of an
 endpoint, or information provided by an endpoint, you might want to suggest a change to the specification.
 
-#### Runtime
+### The Runtime Specification
 
 The [runtime specification](https://github.com/opencontainers/runtime-spec/blob/master/spec.md) is another
 description of an interaction, but this time it's with a container binary.  Specifically, this means
@@ -158,3 +158,8 @@ for the container.
 **How might I contribute?**
 
 You might have an entirely different operating system or technology that you want to explore running containers on, in which case you would want to contribute a new specification. You might find that there is an ambiguity or bug for one runtime, and ask a question about how to work on it.
+
+## Contribute
+
+Now that we've discussed the various specifications, let's talk about how to contribute! We have provided
+several templates to help guide you in your question, issue, or feature request. [Open an issue](https://www.github.com/vsoch/oci-contribution/issues) to get started with the process.
